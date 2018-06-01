@@ -1,0 +1,164 @@
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+body
+{
+	font-family: Arial,sans-serif;
+	font-size:1em;
+	color: silver;	
+}
+/*header*/
+
+
+header
+{
+	border-bottom:0.5rem solid #2cbcd6;
+}
+
+h1 
+{
+	display:inline-block;
+	vertical-align: top;
+	padding-top: 0.5em;
+}
+
+nav
+{
+	text-align: center;
+	position: relative;
+	
+	
+}
+nav > ul{
+	margin:0;
+}
+nav > ul > li {
+	display: inline-block;	
+}
+nav > ul > li > a
+{
+	display: inline-block;
+	color: #2cbcd6;
+	text-decoration: none;
+	padding: 20px;
+	font-weight: bold;
+}
+nav > ul > li > a:hover {
+	background-color: #2cbcd6;
+	color: white;
+	width: auto;
+}
+nav > ul > li:hover .sousmenu{
+	display: block;
+}
+.sousmenu {
+	position: absolute;
+	background-color: #2cbcd6;
+	top:100%; 
+	left: 0;
+	right: 0;
+	display: none;
+}
+.colonne {
+	width:45%;
+	padding:15px; 
+	display: inline-block;
+
+
+
+
+}
+.sousmenu h3 {
+	color:#0000ff;
+
+}
+.sousmenu a {
+	text-decoration: none;
+	color: white;
+
+}
+
+main
+{
+	width: 700px;
+	padding-top: 20px;
+	margin: 0 auto;
+	
+	
+}
+h2, h3
+{
+	color: #2cbcd6;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+.licence a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.licence {
+	background-color: #2cbcd6;
+	padding: 10px;
+	color: white;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.licence img {
+    width: 50px;
+}

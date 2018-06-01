@@ -1,0 +1,178 @@
+/*font-family: 'Bree Serif', serif;*/
+/*mobile*/
+
+html{
+	font-size: 62.5%;
+}
+body{
+	background-image: url("../img/fond.png");
+	font-family: 'Bree Serif', serif;
+	font-size: 18px;
+	font-weight: normal;
+	padding: 0 25px;
+	color:#989898;
+	text-align: center;
+}
+ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+header img{
+	display: block;
+    width: 4rem;
+    margin: 0 auto;
+}
+
+header img:hover{
+	transform: scale(1.3);
+}
+
+header h1{
+	display:block;
+	font-size: 4rem;
+}
+h1 a {
+	text-decoration: none;
+	color: #a9a;
+	text-align: center;
+}
+
+header a{
+	display: block;
+	color: #a9a;
+	text-decoration: none;
+	padding-bottom: 20px;
+}
+
+a:hover{
+	color:#e7325d;
+}
+
+nav .fas{
+	display: block;
+	margin:0 auto; 
+}
+
+nav ul li a{
+	font-size: 2rem;
+	text-align: center;
+	
+}
+
+nav ul li a:hover{
+	transform: translateY(10px);
+}
+
+div{
+	background-image: url("../img/bg_header.png");
+	width: 100%;
+	height: 120rem;
+} 
+
+div a{
+	color: white;
+	background-color: #e7325d;
+	background-position: center;
+	font-weight: bold;
+	text-decoration: none;
+	margin:25px 0;
+	padding:10px;
+	border-radius: 3px; 
+}
+
+div h2{
+	font-size: 35px;
+	text-align: center;
+	padding: 120px 20px 15px 20px ;
+	color: white;
+	line-height: 7rem;
+}
+
+div  p{
+	font-size: 18px;
+	padding: 0 20px;
+	text-align: center;
+	color: white;
+	line-height: 3rem;
+}
+
+article > img{
+	width: 100%;
+}
+
+article a{
+	color: #e7325d;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+article > i{
+	padding-left: 1rem;
+}
+
+h2{
+	color:#e7325d;
+	text-align: center;
+	border-bottom: 1px solid rgba(200,200,200,0.5);
+	padding-bottom : 30px;
+}
+
+section figcaption{
+	color:#989898;
+	font-size: 3rem;
+}
+
+section article h3{
+	color: #e7325d;
+	opacity: 0.8;
+}
+
+.services  {
+	color:#989898;
+}
+
+section > article > i{
+	color: rgb(80,80,80);
+  	border:2px solid rgba(110,110,110,0.2);
+	opacity: 0.5;
+	border-radius:100%;
+	background-color: rgba(150,150,150,0.2);
+}
+section > article > a>{
+	color:#e7325d;
+	opacity: 0.8;
+
+}
+
+section > article > a> i{
+	color:#e7325d;
+
+}
+figcaption{
+text-align: center;
+font-size: 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+#licence {
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+
+#licence img {
+    width: 50px;
+}

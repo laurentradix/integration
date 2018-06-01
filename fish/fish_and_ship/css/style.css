@@ -1,0 +1,116 @@
+/******************
+ * STYLES DE BASE *
+ ******************/
+
+body
+{
+	background-image:url("../img/fond.png");
+	font-family: "Open Sans", sans-serif;
+	line-height: 1.8em;
+	color: #444444;
+}
+
+h1,h2,h3
+{
+	font-family: "Slabo 27px";
+	font-weight: normal;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+/******************
+ * HEADER *
+ ******************/
+
+header
+{
+	text-align: center;
+	background-color: #34b1b2;
+}
+
+/******************
+ * HEADER *
+ ******************/
+
+main
+{
+	margin: 0 auto;
+	max-width: 1100px;
+	min-width: 800px;
+}
+
+
+
+#intro
+{
+	text-align: center;
+	width: 75%;
+	margin: 0 auto;
+}
+
+#recette 
+{
+	background-color: #b6dedc;
+	display: inline-block;
+	width: 60%;
+	padding: 2.5%;
+}
+#recette h2
+{
+	text-align: center;
+	font-size: 3.5em;
+}
+
+
+.ronde
+{
+	border-radius: 50%;
+	float: left;
+}
+.recipe
+{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 1em;
+	width: 45%;
+}
+.bouton
+{
+	display: inline-block;
+	padding: 3px 8px;
+	background-color: #34b1b2
+}
+span
+{
+	color: #34b1b2;
+}
+
+aside
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	color:white;
+	background-color: #34b1b2;
+}
+.fishfood
+{
+float: right;
+margin: -5em -5em;
+
+}
+#licence {
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+
+#licence img {
+    width: 50px;
+}

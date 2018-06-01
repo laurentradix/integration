@@ -1,0 +1,64 @@
+body{
+	background-image: url("../img/fond.png");
+	font-family: "Arial";
+	color: #99959d;
+	margin:0;
+}
+p{
+	text-align: justify;
+}
+h2{
+	color: #b8cb21;font-family: "Oswald";
+}
+header, main {
+	max-width: 750px;
+	margin :0 auto;
+	padding: 20px;
+}
+header{
+	background-color: #b8cb21;
+
+}
+main{
+	background-color: white;
+}
+nav{ 
+	font-size: 1.3em;
+	float: right;
+	padding:42px; 
+}
+.readmore {
+	color: white;
+	background-color:#b8cb21;
+	margin-right: 0,5em;
+}
+article img{
+	width: 250px;
+	float: left;
+	margin:0 10px 5px;
+}
+nav a {
+	color: #33472a;
+	font-family:"Oswald",sans-serif;
+	margin:20px;
+}
+article a{
+	display: inline-block;
+	background-color: #b8cb21;
+	float: right;
+	padding: 10px;
+	text-decoration: none;
+}
+.clear{
+	clear:both;
+}
+#licence {
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+
+#licence img {
+    width: 50px;
+}
+

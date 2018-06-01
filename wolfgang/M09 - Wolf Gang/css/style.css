@@ -1,0 +1,122 @@
+/*mobile*/
+
+@font-face{
+	font-family:"BodegaSans_Black";
+	 src: url("../fonts/BodegaSans_Black.ttf");
+	 
+}
+html {
+	font-size: 62.5%;
+}
+body{
+	background-image: url(../img/bg_body.svg);
+	background-color: #333333;
+	padding: 20px;
+
+	font-family:"Open Sans", sans-serif;
+	color: white;	
+	font-size: 1.6rem;
+	text-align: center;
+	
+}
+
+ul{
+	padding: 0;
+	list-style-type: none;
+	text-align: right;
+
+}
+
+h1, h2, h3
+{
+	font-weight: normal;
+	font-family:"BodegaSans_Black";
+	text-transform: uppercase;
+}
+h1,h2{
+	text-align: left;
+}
+h1 span, h2 span{
+	color:#ff9d00;
+}
+h1 {
+	/* TODO : font-size */
+}
+h2 {
+	text-align: left;
+	/* TODO : font-size, borders, padding */	
+}
+h3{
+	border-bottom: 2px solid #ff9d00;
+	/* TODO : font-size */	
+}
+img{
+	width: 100%;
+}
+
+/* HEADER */
+
+header
+{
+	background-color: white;
+	font-weight:bold;
+	padding:20px;
+
+background: linear-gradient(-43deg, rgba(51,51,51,1) 0%,
+ rgba(51,51,51,1) 44%, rgba(255,255,255,1) 36%, rgba(255,255,255,1) 100%);}
+a img{
+	height: 120px;
+
+}
+
+}
+header nav {
+	text-align: right;
+	
+}
+
+/* MOTOS */
+
+#motos
+{
+	color: #333333;
+}
+
+
+#motos article{
+	background-color: white;
+	margin-bottom: 20px;
+	padding: 20px;
+
+}
+
+#motos a{
+	background-color:#ff9d00; 
+}
+
+/* SOCIAL */
+
+video {
+	width: 100%;
+}
+
+/* FOOTER */
+
+
+/* MEDIA QUERY TABLETTE */
+
+
+/* MEDIA QUERY DESKTOP */
+
+
+
+
+
+
+
+
+
+
+
+
+
